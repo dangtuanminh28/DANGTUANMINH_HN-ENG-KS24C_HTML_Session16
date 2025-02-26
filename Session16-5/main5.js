@@ -1,6 +1,6 @@
-let a = +prompt("Mời nhập số thứ 1");
-let b = +prompt("Mời nhập số thứ 2");
+let firstNumber  = +prompt("Mời nhập số thứ 1");
+let secondNumber = +prompt("Mời nhập số thứ 2");
 
-let total = a + b;
+let sum = firstNumber  + secondNumber;
 
-alert("tổng của 2 số là" + " " +total);
+alert("Tổng của 2 số là" + " " +sum);
